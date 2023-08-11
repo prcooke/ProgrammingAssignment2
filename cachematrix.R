@@ -6,8 +6,8 @@
 ## With this, the inverse will not have to be repeatedly calcuated
 ## Saving time on calculation for large data sets
 
-makeCacheMatrix <- function(om = vector()) { ##creating a function that takes an
-    ##empty vector
+makeCacheMatrix <- function(om = matrix()) { ##creating a function that takes an
+    ##empty matrix
     im <- NULL ##intializes 'im' as an object within makeCasheMatrix to be used later
     set <- function(aMatrix) { ##function that will: 
         om <<- aMatrix ##assigns 'aMatrix' to 'om' in the parent environment
